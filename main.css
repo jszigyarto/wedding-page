@@ -17,7 +17,7 @@ img {
 }
 
 body {
-  background: url('assets/wedding-landing-background.png') repeat center;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
   font-family: 'Libre Baskerville', serif;
   font-size: 1.125rem;
   line-height: 1.5;
@@ -45,7 +45,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 a {
@@ -58,6 +58,7 @@ a:hover {
   transition: color .15s ease-in-out;
 }
 
+
 /* =============================
 
     HEADER STYLES
@@ -65,7 +66,7 @@ a:hover {
 =============================*/
 
 .cover {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  background: url('assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
   display: table;
   text-align: center;
   height: 100vh;
@@ -110,6 +111,58 @@ a:hover {
   vertical-align: middle;
 }
 
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.5rem;
+  margin: .5rem auto;
+}
+
+.date {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
 .date::before,
 .date::after {
   display: inline-block;
@@ -121,3 +174,32 @@ a:hover {
   margin: 0 .5rem;
 }
 
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.blurb img {
+  height: 7.5rem;
+  margin: 2rem;
+}
+
+.blurb h3 {
+  font-weight: 1000;
+  font-size: 
+}
+
+.blurb div {
+  font-family: 'Muli', sans-serif;
+}
+
+
+.blurb::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
